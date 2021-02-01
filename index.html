@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <script
+    src="https://kit.fontawesome.com/174c8f6175.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <body>
+    <div class="boxed">
+      <div class="boxone">
+        <form id="cityform">
+          <input
+            type="text"
+            placeholder="Search for a city 🗺"
+            autofocus="on"
+            autocomplete="off"
+            id="searchinput"
+          />
+          <input type="submit" id="search" value="🔍" />
+          <input type="submit" value="📍Current location" id="currentbutton" />
+        </form>
+      </div>
+
+      <h1 id="city">Pasto</h1>
+      <div class="data" id="todaydata"></div>
+      <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" id="icon" />
+      <div class="data">
+        <span id="description">Sunny</span>
+        <br />
+        <span id="degrees">30</span
+        ><span id="metrics">
+          <a href="#" id="celcius" class="active">°C</a> |
+          <a href="#" id="fahrenheit">°F</a>
+        </span>
+
+        <div class="additional-data">
+          <br>
+          <span id="precipitation">Precipitation: 80% </span>
+          <span id="wind">| Wind: 3km/h</span>
+        </div>
+      </div>
+
+      <div class="boxtwo">
+        <span class="separation"
+          >---------------------------------------------</span
+        >
+        <span class="header">Three hour forecast:</span>
+        <div class="row weather-forecast" id="forecast"></div>
+        <br />
+      </div>
+    </div>
+
+    <div class="Open-sourced">
+      <p>
+        <a href="https://github.com/dpaz2290/WeatherApp target="_blank" class="link">Open-source code</a>
+        by
+        <a href="https://www.linkedin.com/in/daniela-paz-/" target="_blank" class="link"> Daniela Paz </a>
+        and
+        <a href="" target="_blank" class="link">hosted on Netlify</a>
+      </p>
+
+      <a href="https://github.com/dpaz2290" target="_blank">
+      <img class="github-logo" src="imgs/GitHub.png" alt="GitHub">
+      </a>
+
+      <a href="https://www.instagram.com/danielaisabel_paz/" target="_blank">
+      <img class="instagram-logo" src="imgs/Instagram.png" alt="Instagram"></a>
+
+      <a href="https://www.linkedin.com/in/daniela-paz-/" target="_blank">
+      <img class="linkedin-logo" src="imgs/linkedin.png" alt="linkedin">
+      </a>
+
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
+
