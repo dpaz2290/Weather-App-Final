@@ -3,89 +3,72 @@
   margin: 0 auto;
   text-align: center;
 }
-
 #city {
   text-align: center;
   font-weight: bolder;
   margin-top: 10px;
 }
-
 #celcius {
   font-weight: bolder;
 }
-
 #fahrenheit {
   font-weight: bolder;
 }
-
 #todaydata {
   font-weight: bold;
 }
-
 #description {
   font-weight: bold;
 }
-
 #degrees {
   font-size: 40px;
 }
-
 #metrics {
   margin-bottom: 20px;
   position: relative;
   top: -16px;
   font-size: 15px;
 }
-
 #cityform {
   margin: 0 auto;
   padding: 20px;
 }
-
 input#currentbutton {
   background-color: transparent;
   color: white;
   border: 1px solid white;
   border-radius: 7px;
 }
-
 input#search {
   background-color: transparent;
   color: white;
   border: 1px solid white;
   border-radius: 7px;
 }
-
 input#searchinput {
   color: teal;
   border-radius: 7px;
   border: 1px solid white;
 }
-
 .additional-data {
   font-weight: bold;
 }
-
 .data {
   text-align: center;
 }
-
 .Open-sourced {
   font-family: var(--bs-font-sans-serif);
   text-align: center;
   margin-top: 10px;
 }
-
 .data .active {
   color: black;
   cursor: default;
   text-decoration: none;
 }
-
 .data .active:hover {
   text-decoration: none;
 }
-
 .weather-forecast {
   font-size: 16px;
   margin: 0 auto;
@@ -93,7 +76,6 @@ input#searchinput {
   text-align: center;
   padding-top: 7px;
 }
-
 .weather-forecast-temperature {
   text-align: center;
   font-size: 15px;
@@ -103,28 +85,23 @@ input#searchinput {
   white-space: nowrap;
   color: white;
 }
-
 .header {
   font-weight: bold;
   display: block;
   text-align: center;
 }
-
 .separation {
   color: lightgray;
   display: block;
   text-align: center;
 }
-
 body {
   margin: 100px;
   padding: 20px;
-  width: 50%;
   line-height: 1;
   margin: 0 auto;
   font-family: "Raleway", sans-serif;
 }
-
 .boxone {
   border-radius: 15px 15px 0 0;
   background-size: cover;
@@ -132,7 +109,6 @@ body {
   border: 0;
   background-color: teal;
 }
-
 .boxtwo {
   background-image: url("https://img.pngio.com/landscape-euclidean-vector-pioneer-mountain-png-download-1889-landscape-vector-png-1889_1001.png");
   background-position: 10%;
@@ -142,35 +118,34 @@ body {
   max-width: 800px;
   border-radius: 0 0 15px 15px;
 }
-
 .boxed {
   box-shadow: 6px 6px 35px -17px rgba(65, 65, 65, 0.4);
 }
-
 .github-logo {
   width: 20px;
   margin: 20px;
   margin-top: 0px;
 }
-
 .linkedin-logo {
   width: 20px;
   margin: 20px;
   margin-top: 0px;
 }
-
 .instagram-logo {
   width: 20px;
   margin: 20px;
   margin-top: 0px;
 }
-
 .link {
   color: teal;
   text-decoration: underline;
 }
-
 .active {
   color: teal;
   text-decoration: underline;
+}
+@media (min-width: 768px) {
+  body {
+    width: 50%;
+  }
 }

@@ -57,11 +57,10 @@ function displayForecast(response) {
   let forecastElement = document.querySelector("#forecast");
   forecastElement.innerHTML = null;
   let forecast = null;
-
   for (let index = 0; index < 4; index++) {
     let forecast = response.data.list[index];
     forecastElement.innerHTML += `
-    <div class="col-3">
+    <div class="col-6 col-sm-3">
       <h3>${formatHours(forecast.dt * 1000)}</h3>
       <img src="http://openweathermap.org/img/wn/${
         forecast.weather[0].icon

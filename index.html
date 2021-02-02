@@ -15,20 +15,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
       rel="stylesheet"
     />
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-
   <script
     src="https://kit.fontawesome.com/174c8f6175.js"
     crossorigin="anonymous"
   ></script>
-
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
   <body>
     <div class="boxed">
-      <div class="boxone">
+      <div class="boxone text-center text-sm-left">
         <form id="cityform">
           <input
             type="text"
@@ -36,12 +32,12 @@
             autofocus="on"
             autocomplete="off"
             id="searchinput"
+            class="mb-3 mb-md-0"
           />
           <input type="submit" id="search" value="🔍" />
           <input type="submit" value="📍Current location" id="currentbutton" />
         </form>
       </div>
-
       <h1 id="city">Pasto</h1>
       <div class="data" id="todaydata"></div>
       <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" id="icon" />
@@ -53,14 +49,12 @@
           <a href="#" id="celcius" class="active">°C</a> |
           <a href="#" id="fahrenheit">°F</a>
         </span>
-
         <div class="additional-data">
           <br>
           <span id="precipitation">Precipitation: 80% </span>
           <span id="wind">| Wind: 3km/h</span>
         </div>
       </div>
-
       <div class="boxtwo">
         <span class="separation"
           >---------------------------------------------</span
@@ -70,7 +64,6 @@
         <br />
       </div>
     </div>
-
     <div class="Open-sourced">
       <p>
         <a href="https://github.com/dpaz2290/WeatherApp target="_blank" class="link">Open-source code</a>
@@ -79,20 +72,15 @@
         and
         <a href="" target="_blank" class="link">hosted on Netlify</a>
       </p>
-
       <a href="https://github.com/dpaz2290" target="_blank">
       <img class="github-logo" src="imgs/GitHub.png" alt="GitHub">
       </a>
-
       <a href="https://www.instagram.com/danielaisabel_paz/" target="_blank">
       <img class="instagram-logo" src="imgs/Instagram.png" alt="Instagram"></a>
-
       <a href="https://www.linkedin.com/in/daniela-paz-/" target="_blank">
       <img class="linkedin-logo" src="imgs/linkedin.png" alt="linkedin">
       </a>
-
     </div>
     <script src="src/index.js"></script>
   </body>
 </html>
-
