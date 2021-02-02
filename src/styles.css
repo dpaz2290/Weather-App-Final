@@ -79,11 +79,11 @@ input#searchinput {
 .weather-forecast-temperature {
   text-align: center;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 2000;
   height: auto;
   line-height: 15px;
   white-space: nowrap;
-  color: white;
+  color: black;
 }
 .header {
   font-weight: bold;
